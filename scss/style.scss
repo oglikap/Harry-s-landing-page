@@ -1,0 +1,41 @@
+@font-face {
+  font-family: 'AvenirNextLTPro-Medium';
+  src: url('../fonts/2FDF27_8_0.woff2') format('woff2'), url('../fonts/2FDF27_8_0.woff') format('woff'), url('../fonts/2FDF27_8_0.ttf') format('truetype');
+}
+
+// @font-face {
+//   font-family: 'Rockwell';
+//   src: url('../fonts/rockwell-bold.ttf') format('truetype');
+// }
+
+@font-face {
+  font-family: 'Pokerface';
+  src: url('../fonts/2FDF27_3B_0.woff2') format('woff2'), url('../fonts/2FDF27_3B_0.woff') format('woff'), url('../fonts/2FDF27_3B_0.ttf') format('truetype');
+}
+
+body {
+  font-family: 'AvenirNextLTPro-Medium', sans-serif;
+}
+
+.bs-container {
+  padding: 1em;
+}
+
+.bs-flexbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bs-height-vh {
+  height: 100vh;
+}
+
+.bs-font-hero {
+  font-size: 8.5em;
+  letter-spacing: 8px;
+  font-family: 'Pokerface', serif;
+  // font-family: 'Rockwell', sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+}
